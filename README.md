@@ -1,32 +1,6 @@
-# Vue Test App
+# Vue Todo List
 
-In this project, we have used the following dependencies.
-
-- [x] node v16.13.0
-- [x] core-js
-- [x] date-fns
-- [x] lodash
-- [x] moment
-- [x] vue
-
-# List
-
-Create list application. Design is in **list.xd** file, which can be opened in
-[Adobe XD](https://www.adobe.com/products/xd.html).
-
-## Author
-
-[@sagars14](https://github.com/sagars14)
-
-## Run Locally
-
-Clone the project
-
-git clone https://github.com/sagars14/vue-test1-list
-
-Go to the project directory
-
-cd github-assignment
+![Capture](https://user-images.githubusercontent.com/96617494/160120742-d6049027-c6c5-4e9d-995d-32a9688e68f0.PNG)
 
 ## Project setup
 
@@ -59,10 +33,3 @@ npm run serve
 - All components should use typescript for its `<script>` part with composition
   api (setup) and scss module for its `<style>` part
 - All colors should be defined in `_color.scss` file
-
-## Libraries
-
-The following libraries are available, you can import any utility you'll need.
-
-- [date-fns](https://date-fns.org/) `import { } from "date-fns"`
-- [lodash](https://lodash.com/) `import { } from "lodash"`
