@@ -1,0 +1,37 @@
+@use 'sass/color.scss';
+
+.user-table {
+  width: 85%;
+  tr {
+    position: relative;
+    td,
+    th {
+      width: 34%;
+      padding: 15px 5px;
+      text-align: left;
+      button {
+        border: 0;
+        background: color.$button-bg;
+        color: color.$button;
+        border-radius: 5px;
+        padding: 10px 20px;
+      }
+      &:nth-child(2) {
+        text-align: center;
+      }
+      &:last-child {
+        padding: 0;
+        text-align: right;
+      }
+    }
+    &::after {
+      position: absolute;
+      content: '';
+      width: 100%;
+      bottom: 0;
+      left: 0;
+      height: 1px;
+      background: color.$border-bottom;
+    }
+  }
+}
